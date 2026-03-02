@@ -8,7 +8,7 @@
 
 /* Кнопки */ .button { display: inline-block; padding: 15px 30px; margin: 20px auto; background: linear-gradient(45deg, #d4af37, #f5d76e); color: #000; font-weight: bold; text-decoration: none; border-radius: 10px; transition: all 0.3s ease; } .button:hover { transform: scale(1.05); box-shadow: 0 0 15px #d4af37; }
 
-/* Блок Обо мне */ .about { background: rgba(0,0,0,0.6); padding: 30px; border-radius: 15px; margin: 40px 0; }
+/* Блок Обо мне */ .about {background: url('images/background.png') no-repeat center center; background-size: cover; padding: 30px; border-radius: 15px; color: #f5d76e; background: rgba(0,0,0,0.6); padding: 30px; border-radius: 15px; margin: 40px 0; }
 
 /* Преимущества */ .features { display: flex; flex-wrap: wrap; justify-content: space-around; margin: 40px 0; } .feature-item { flex: 0 0 30%; background: rgba(0,0,0,0.5); margin: 10px; padding: 20px; border-radius: 15px; text-align: center; }
 
