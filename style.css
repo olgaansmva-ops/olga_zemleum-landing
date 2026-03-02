@@ -1,0 +1,21 @@
+/* style.css для лендинга ЗемлеУм */
+
+/* Общие стили */ body { margin: 0; font-family: 'Arial', sans-serif; background: linear-gradient(135deg, #000000, #3d2c00, #000000); color: #f5d76e; }
+
+/* Заголовки */ h1, h2, h3 { font-family: 'Chalga Folk', cursive; text-align: center; margin: 20px 0; }
+
+/* Основной блок */ .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+
+/* Кнопки */ .button { display: inline-block; padding: 15px 30px; margin: 20px auto; background: linear-gradient(45deg, #d4af37, #f5d76e); color: #000; font-weight: bold; text-decoration: none; border-radius: 10px; transition: all 0.3s ease; } .button:hover { transform: scale(1.05); box-shadow: 0 0 15px #d4af37; }
+
+/* Блок Обо мне */ .about { background: rgba(0,0,0,0.6); padding: 30px; border-radius: 15px; margin: 40px 0; }
+
+/* Преимущества */ .features { display: flex; flex-wrap: wrap; justify-content: space-around; margin: 40px 0; } .feature-item { flex: 0 0 30%; background: rgba(0,0,0,0.5); margin: 10px; padding: 20px; border-radius: 15px; text-align: center; }
+
+/* Изображения */ img { max-width: 100%; border-radius: 10px; }
+
+/* Анимации */ .fade-in { opacity: 0; animation: fadeIn 1.5s forwards; }
+
+@keyframes fadeIn { to { opacity: 1; } }
+
+/* Мобильная адаптация */ @media (max-width: 768px) { .features { flex-direction: column; align-items: center; } .feature-item { flex: 0 0 80%; } }
